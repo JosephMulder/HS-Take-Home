@@ -7,14 +7,6 @@ const peopleSet = new Set();
 
 const { validatePersonField } = require("./utils/validator");
 
-peopleSet.add({
-    "firstName": "Joseph",
-    "lastName": "Mulder",
-    "dateOfBirth": "1995/10/05",
-    "emailAddress": "josephmulder800@gmail.com",
-    "socialSecurityNumber": "123456789"
-})
-
 app.use(express.json());
 
 app.listen(port, () => {
